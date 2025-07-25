@@ -15,5 +15,8 @@ const config: StorybookConfig = {
   core: {
     builder: "@storybook/builder-vite",
   },
+  features: {
+    argTypeTargetsV7: true,
+  },
 };
 export default config;

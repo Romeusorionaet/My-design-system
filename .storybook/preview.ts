@@ -6,7 +6,6 @@ import "../src/assets/styles/global.css";
 const preview: Preview = {
   tags: ["autodocs"],
   parameters: {
-    actions: { argTypesRegex: "^on[A-Z].*" },
     controls: {
       matchers: {
         color: /(background|color)$/i,
