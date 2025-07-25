@@ -1,0 +1,33 @@
+name: Deploy Storybook
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: '**/package-lock.json'
+
+      - run: npm ci
+
+      - name: Build Storybook
+        run: npm run build-storybook
+
+      - name: Configure Git User
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Deploy to GitHub Pages
+        run: npm run deploy-storybook
