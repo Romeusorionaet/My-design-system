@@ -11,7 +11,7 @@
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "deploy-storybook": "storybook-to-ghpages",
+    "deploy-storybook": "gh-pages -d storybook-static",
     "release": "changeset version && changeset publish"
   },
   "dependencies": {
@@ -33,6 +33,7 @@
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
     "@vitejs/plugin-react": "^4.6.0",
+    "gh-pages": "^6.3.0",
     "globals": "^16.3.0",
     "storybook": "^9.0.18",
     "tailwind-variants": "^1.0.0",
