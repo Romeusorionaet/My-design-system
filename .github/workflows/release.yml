@@ -22,7 +22,10 @@ jobs:
       - run: npm ci
 
       - name: Publish to NPM
+        id: changesets
         uses: changesets/action@v1
+        with:
+          publish: npm run release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
