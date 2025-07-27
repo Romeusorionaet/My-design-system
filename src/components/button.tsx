@@ -1,5 +1,5 @@
-import { tv, type VariantProps } from "tailwind-variants";
 import { forwardRef, type ComponentProps } from "react";
+import { tv, type VariantProps } from "tailwind-variants";
 
 const button = tv({
   base: "flex items-center justify-center gap-1 duration-300 tracking-tight leading-5.5 outline-none ring-offset-2 ring-offset-black focus-visible:ring-2 disabled:cursor-not-allowed overflow-hidden",
