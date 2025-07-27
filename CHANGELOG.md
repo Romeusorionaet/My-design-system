@@ -1,5 +1,11 @@
 # my-design-systems
 
+## 0.1.10
+
+### Patch Changes
+
+- 1b870d1: fix releas 1e
+
 ## 0.1.9
 
 ### Patch Changes
