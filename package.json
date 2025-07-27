@@ -18,11 +18,11 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "deploy-storybook": "gh-pages -d storybook-static -u \"Romeu <romeusoares14569@gmail.com>\"",
-    "release": "npm run build && changeset publish",
-    "prepublishOnly": "npm run build",
-    "publish": "npm publish",
     "changeset": "changeset",
-    "version-packages": "changeset version"
+    "version": "changeset version",
+    "release": "changeset publish",
+    "prepublishOnly": "npm run build",
+    "publish": "npm publish"
   },
   "dependencies": {
     "lucide-react": "^0.525.0",
