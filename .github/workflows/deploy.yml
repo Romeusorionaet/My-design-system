@@ -24,10 +24,9 @@ jobs:
       - name: Build Storybook
         run: npm run build-storybook
 
-      - name: Configure Git User
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
       - name: Deploy to GitHub Pages
-        run: npm run deploy-storybook
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages
+          folder: storybook-static
+          token: ${{ secrets.GITHUB_TOKEN }}
