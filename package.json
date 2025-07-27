@@ -11,7 +11,7 @@
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "deploy-storybook": "gh-pages -d storybook-static -u \"GitHub Actions <41898282+github-actions[bot]@users.noreply.github.com>\" -r https://x-access-token:${GITHUB_TOKEN}@github.com/Romeusorionaet/My-design-system.git",
+    "deploy-storybook": "gh-pages -d storybook-static -u \"Romeu <romeusoares14569@gmail.com>\" -r https://x-access-token:${GITHUB_TOKEN}@github.com/Romeusorionaet/My-design-system.git",
     "release": "changeset version && changeset publish"
   },
   "dependencies": {
