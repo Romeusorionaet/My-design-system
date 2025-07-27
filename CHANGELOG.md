@@ -1,5 +1,11 @@
 # my-design-systems
 
+## 0.1.12
+
+### Patch Changes
+
+- e48b331: fix release 3
+
 ## 0.1.11
 
 ### Patch Changes
