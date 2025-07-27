@@ -2,6 +2,10 @@
   "name": "my-design-systems",
   "version": "0.1.1",
   "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
   "publishConfig": {
     "access": "public"
   },
@@ -12,7 +16,9 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "deploy-storybook": "gh-pages -d storybook-static -u \"Romeu <romeusoares14569@gmail.com>\"",
-    "release": "changeset version && changeset publish"
+    "release": "changeset version && changeset publish",
+    "prepublishOnly": "npm run build",
+    "publish": "npm publish"
   },
   "dependencies": {
     "lucide-react": "^0.525.0",
