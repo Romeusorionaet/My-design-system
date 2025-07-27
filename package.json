@@ -1,6 +1,6 @@
 {
   "name": "my-design-systems",
-  "version": "0.1.10",
+  "version": "0.1.9",
   "type": "module",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -11,18 +11,16 @@
   "publishConfig": {
     "access": "public"
   },
-  "scripts": {
-    "dev": "tsup src/index.tsx --format esm,cjs --dts --external react --watch",
-    "build": "tsup src/index.tsx",
-    "preview": "vite preview",
-    "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build",
-    "deploy-storybook": "gh-pages -d storybook-static -u \"Romeu <romeusoares14569@gmail.com>\"",
-    "changeset": "changeset",
-    "version": "changeset version",
-    "release": "changeset publish",
-    "prepublishOnly": "npm run build",
-    "publish": "npm publish"
+ "scripts": {
+  "dev": "tsup src/index.tsx --format esm,cjs --dts --external react --watch",
+  "build": "tsup src/index.tsx",
+  "preview": "vite preview",
+  "storybook": "storybook dev -p 6006",
+  "build-storybook": "storybook build",
+  "deploy-storybook": "gh-pages -d storybook-static -u \"Romeu <romeusoares14569@gmail.com>\"",
+  "changeset": "changeset",
+  "version": "changeset version",
+  "prepublishOnly": "npm run build"
   },
   "dependencies": {
     "lucide-react": "^0.525.0",
