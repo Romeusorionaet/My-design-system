@@ -1,5 +1,11 @@
 # my-design-systems
 
+## 0.1.6
+
+### Patch Changes
+
+- c1e1345: release fix
+
 ## 0.1.5
 
 ### Patch Changes
