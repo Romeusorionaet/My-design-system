@@ -1,5 +1,0 @@
----
-"@romeusoares/react": patch
----
-
-fix changeset .md
