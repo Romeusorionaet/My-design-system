@@ -5,9 +5,9 @@
     "packages/*"
   ],
   "scripts": {
-    "dev": "npm --workspace @romeu/react run dev",
-    "build": "npm --workspace @romeu/react run build",
-    "storybook": "npm --workspace @romeu/react run storybook",
+    "dev": "npm --workspace @romeusoares/react run dev",
+    "build": "npm --workspace @romeusoares/react run build",
+    "storybook": "npm --workspace @romeusoares/react run storybook",
     "build-storybook": "storybook build",
     "changeset": "changeset",
     "version-packages": "changeset version",

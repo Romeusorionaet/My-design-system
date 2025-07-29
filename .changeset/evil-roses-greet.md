@@ -1,5 +1,5 @@
 ---
-"@romeu/react": minor
+"@romeusoares/react": minor
 ---
 
 fix packages

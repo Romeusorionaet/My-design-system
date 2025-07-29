@@ -1,5 +1,5 @@
 {
-  "name": "@romeu/react",
+  "name": "@romeusoares/react",
   "version": "0.1.13",
   "type": "module",
   "main": "dist/index.js",

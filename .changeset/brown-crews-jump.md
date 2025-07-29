@@ -2,4 +2,4 @@
 "@romeusoares/react": patch
 ---
 
-fix changeset .md
+fix packages 2
