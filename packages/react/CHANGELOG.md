@@ -1,5 +1,11 @@
 # @romeu/react
 
+## 0.3.2
+
+### Patch Changes
+
+- ef454d9: test release
+
 ## 0.3.1
 
 ### Patch Changes
