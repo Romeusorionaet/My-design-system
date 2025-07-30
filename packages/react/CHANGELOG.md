@@ -1,5 +1,11 @@
 # @romeu/react
 
+## 0.3.5
+
+### Patch Changes
+
+- 36090d6: fix path dist folder
+
 ## 0.3.4
 
 ### Patch Changes
