@@ -2,11 +2,11 @@
   "name": "@romeusoares/react",
   "version": "0.3.3",
   "type": "module",
-  "main": "packages/react/dist/index.js",
-  "module": "packages/react/dist/index.mjs",
-  "types": "packages/react/dist/index.d.ts",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
   "files": [
-    "packages/react/dist"
+    "./dist"
   ],
   "publishConfig": {
     "access": "public"
