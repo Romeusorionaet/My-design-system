@@ -1,6 +1,6 @@
 {
   "name": "@romeusoares/react",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "type": "module",
   "main": "packages/react/dist/index.js",
   "module": "packages/react/dist/index.mjs",
