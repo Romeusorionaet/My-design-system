@@ -1,5 +1,11 @@
 # @romeu/react
 
+## 0.3.3
+
+### Patch Changes
+
+- 7d5fc14: test release
+
 ## 0.3.2
 
 ### Patch Changes
