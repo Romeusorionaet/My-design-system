@@ -3,7 +3,18 @@
   "compilerOptions": {
     "jsx": "react-jsx",
     "rootDir": "src",
-    "outDir": "dist"
+    "outDir": "dist",
+    "moduleResolution": "node",
+    "module": "esnext",
+    "types": ["node", "react"],
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "*": [
+        "node_modules/*",
+        "../../node_modules/*"
+      ]
+    }
   },
   "include": ["src"]
 }
