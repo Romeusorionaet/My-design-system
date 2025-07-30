@@ -1,5 +1,11 @@
 # @romeu/react
 
+## 0.3.6
+
+### Patch Changes
+
+- 7eb598f: configured exports in package
+
 ## 0.3.5
 
 ### Patch Changes
