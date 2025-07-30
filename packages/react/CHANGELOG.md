@@ -1,5 +1,11 @@
 # @romeu/react
 
+## 0.3.7
+
+### Patch Changes
+
+- 0f36645: install tsup
+
 ## 0.3.6
 
 ### Patch Changes
