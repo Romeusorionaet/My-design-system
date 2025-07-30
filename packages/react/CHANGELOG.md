@@ -1,5 +1,11 @@
 # @romeu/react
 
+## 0.3.4
+
+### Patch Changes
+
+- 31b7b67: fixed dist path
+
 ## 0.3.3
 
 ### Patch Changes
