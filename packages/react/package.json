@@ -10,8 +10,7 @@
       "import": "./dist/index.js",
       "require": "./dist/index.cjs",
       "default": "./dist/index.js"
-    },
-    "./styles.css": "./dist/styles.css"
+    }
   },
   "files": [
     "./dist"
