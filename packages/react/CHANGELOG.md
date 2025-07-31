@@ -1,5 +1,11 @@
 # @romeu/react
 
+## 0.5.0
+
+### Minor Changes
+
+- 49d8d7d: Removed unused index.css file and redundant default export entry from package.json.
+
 ## 0.4.1
 
 ### Patch Changes
