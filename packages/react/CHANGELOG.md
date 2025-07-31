@@ -1,5 +1,15 @@
 # @romeu/react
 
+## 0.4.0
+
+### Minor Changes
+
+- ef0e98b: Improve Button typing and developer experience
+
+### Patch Changes
+
+- c263555: Fix Button styles not applying correctly when using `variant`, `shape`, and `size` props by properly merging `className` with tailwind-variants output.
+
 ## 0.3.7
 
 ### Patch Changes
