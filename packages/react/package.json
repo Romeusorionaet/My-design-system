@@ -8,8 +8,10 @@
   "exports": {
     ".": {
       "import": "./dist/index.js",
-      "require": "./dist/index.cjs"
-    }
+      "require": "./dist/index.cjs",
+      "default": "./dist/index.js"
+    },
+    "./styles.css": "./dist/styles.css"
   },
   "files": [
     "./dist"
@@ -17,7 +19,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "scripts": {
+   "scripts": {
     "dev": "tsup src/index.ts --format esm,cjs --external react --watch",
     "build": "tsup src/index.ts --format esm,cjs --dts",
     "storybook": "storybook dev -p 6006 --config-dir ../../.storybook",
@@ -31,8 +33,9 @@
     "tailwindcss": "^4.0.0 || ^5.0.0"
   },
   "devDependencies": {
+    "clsx": "^2.1.1",
     "tailwind-merge": "^3.3.1",
     "tailwind-variants": "^2.0.1",
-    "clsx": "^2.1.1"
+    "tailwindcss": "^4.1.11"
   }
 }
