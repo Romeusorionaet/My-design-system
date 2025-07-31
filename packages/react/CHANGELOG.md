@@ -1,5 +1,11 @@
 # @romeu/react
 
+## 0.4.1
+
+### Patch Changes
+
+- a55394a: Fixed missing TailwindCSS styles for Button variants (e.g. success, danger).
+
 ## 0.4.0
 
 ### Minor Changes
