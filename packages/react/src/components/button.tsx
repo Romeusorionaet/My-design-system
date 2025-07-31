@@ -55,8 +55,8 @@ const button = tv({
   },
 });
 
-export type ButtonProps = ComponentProps<"button"> &
-  VariantProps<typeof button>;
+export type ButtonVariants = VariantProps<typeof button>;
+export type ButtonProps = ComponentProps<"button"> & ButtonVariants;
 
 export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
   ({ className, variant, size, shape, ...props }, ref) => {
@@ -64,7 +64,12 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
       <button
         {...props}
         ref={ref}
-        className={button({ variant, size, shape, className })}
+        className={button({
+          variant,
+          size,
+          shape,
+          className,
+        })}
       />
     );
   }
