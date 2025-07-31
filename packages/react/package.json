@@ -1,6 +1,6 @@
 {
   "name": "@romeusoares/react",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "type": "module",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
@@ -19,7 +19,7 @@
   "publishConfig": {
     "access": "public"
   },
-   "scripts": {
+  "scripts": {
     "dev": "tsup src/index.ts --format esm,cjs --external react --watch",
     "build": "tsup src/index.ts --format esm,cjs --dts",
     "storybook": "storybook dev -p 6006 --config-dir ../../.storybook",
