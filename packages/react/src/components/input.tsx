@@ -47,8 +47,9 @@ export const Input = forwardRef<HTMLInputElement, InputProps>(
     const [value, setValue] = useState("");
 
     return (
-      <div className="relative w-full">
+      <label className="relative w-full">
         <input
+          placeholder="Pesquisar..."
           {...props}
           ref={ref}
           value={props.value ?? value}
@@ -74,7 +75,7 @@ export const Input = forwardRef<HTMLInputElement, InputProps>(
             ✖
           </Button>
         )}
-      </div>
+      </label>
     );
   }
 );
