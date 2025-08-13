@@ -1,5 +1,11 @@
 # @romeu/react
 
+## 0.6.1
+
+### Patch Changes
+
+- 5464b53: fixed critical accessibility problem
+
 ## 0.6.0
 
 ### Minor Changes
