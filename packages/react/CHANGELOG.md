@@ -1,5 +1,11 @@
 # @romeu/react
 
+## 0.6.0
+
+### Minor Changes
+
+- afd7191: Added new `input` component with support for states and sizes.
+
 ## 0.5.0
 
 ### Minor Changes
